@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+      <nav class="nav">
+          
+          <div class="logo-container">
+              <img class="logo-image" src="tbcimages/footerlogo.jpg" alt="Your Logo">
+              <span class="logo-text">აკადემია</span>
+            </div>
+            <ul class="nav-links">
+            <i class="fa-sharp fa-solid fa-xmark navCloseBtn"></i>
+            <li class="nav-item"><a class="nav-link" href="#">მთავარი</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">TBC IT</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">TBC x USAID</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">რისკები</a></li>
+        </ul>
+        <div class="navOpenBtn">&#9776;</div>
+    </nav>
+
+
+ 
+
+  <div class="bannerContainer">
+    <img class="bannerImg" src="tbcimages/banner.jpg" alt="">
+    <div class="imgTextDiv">
+        <h1>TBC x USAID</h1>
+        <h2>ტექნოლოგიური განათლებისთვის</h2>
+    </div>
+  </div>
+  
+  <div class="InfoDiv" >
+    <p>„ TBC x USAID - ტექნოლოგიური განათლებისთვის “ პროგრამა  საინფორმაციო ტექნოლოგიებით დაინტერესებულ ადამიანებს გთავაზობთ სრულად დაფინანსებულ ონლაინ საგანმანათლებლო პრაქტიკულ კურსებს  სხვადასხვა ICT მიმართულებით. წარმატებულ კურსდამთავრებულებს ეძლევათ შესაძლებლობა დასაქმდნენ თიბისისა და მის პარტნიორ კომპანიებში.</p>
+    <span>გაიგე მეტი</span>
+  </div>
+
+  <div class="coursesSection">
+    <h2>სასწავლო კურსები</h2>
+    <div class="coursesDiv" id="coursesDiv">
+    
+    </div>
+  </div>
+  
+<!-- slider -->
+<div class="gallery-Div">
+
+    <h2 >პროექტის პარტნიორები</h2>
+    <div class="gallery-wrap">
+        <i id="backBtn" class="fa-solid fa-chevron-left"></i>
+        <div class="gallery"> 
+            <div>
+            </div>
+            <div>
+            </div>
+            <div>
+                <img src="tbcimages/parthner1.jpg" alt="">
+                <img src="tbcimages/parthner2.jpg" alt="">
+                <img src="tbcimages/parthner3.jpg" alt="">
+            </div>
+            <div>
+                <img src="tbcimages/parthner4.jpg" alt="">
+                <img src="tbcimages/parthner5.jpg" alt="">
+                <img src="tbcimages/parthner6.jpg" alt="">
+            </div>
+            
+            <div>   
+                <img src="tbcimages/parthner7.jpg" alt="">
+            </div>
+        </div>
+        
+        <i id="nextBtn" class="fa-solid fa-chevron-right"></i>
+    </div>
+    <div class="pagination">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</div>
+<!-- questions answers -->
+<div class="faq">
+    <div class="questionTitleDiv">
+        <h2>ხშირად დასმული კითხვები</h2>
+        <h3>ყველა კითხვა</h3>
+
+    </div>
+    <h3 class="question" onclick="toggleAnswer('answer1')">როგორ ხდება კურსებზე რეგისტრაცია და შერჩევა? <i class="fa-solid fa-angle-down"></i></h3>
+    
+    <div class="answer" id="answer1">კურსზე რეგისტრაციისთვის უნდა გაიარო რამდენიმე ეტაპი:
+
+
+        I ეტაპი - პირველ ეტაპზე საჭიროა, შეავსო სასურველი კურსისთვის განკუთვნილი სარეგისტრაციო ფორმა, რომელიც განთავსებულია კურსის შიდა გვერდზე. კურსზე რეგისტრაციის დასრულების შემდეგ დაიწყება შემოსული განცხადებების გადარჩევა. 
+        
+        II ეტაპი - შერჩევის მეორე ეტაპი კურსების მიხედვით განსხვავებულია, ზოგიერთი კურსისთვის მოიცავს პრე-ტესტს, ზოგიერთ კურსზე კი უნარების ტესტს, სადაც მინიმალური ზღვარის გადალახვის შემთხვევაში გადახვალ შერჩევის შემდეგ ეტაპზე.
+        
+        III ეტაპი - მესამე ეტაპი კურსების მიხედვით განსხვავდება: Advance კურსებზე, სადაც მოითხოვება გარკვეული ტექნიკური ცოდნა, მონაწილეებმა უნდა დაწერონ ტექნიკური ტესტი ცოდნის დონის შესამოწმებლად, ხოლო კურსებზე, სადაც რაიმე ტიპის წინასწარი ცოდნა მოთხოვნილი არ არის უნდა შეასრულოთ ტექნიკური დავალება, რაც თქვენი კვლევისა და თვითსწავლის უნარს ამოწმებს.
+        
+        IV ეტაპი - შერჩევის ბოლო მეოთხე ეტაპი მოიცავს გასაუბრებას შესარჩევ კომისიასთან. გასაუბრების წარმატებით გავლის შემთხვევაში ჩაირიცხებით კურსზე და გაფორმდება შესაბამისი ხელშეკრულება.
+        
+        
+        * სანამ კურსზე დარეგისტრირდები მნიშვნელოვანია, ყურადღებით წაიკითხო კურსის აღწერა, ნახო რას ისწავლი კურსის განმავლობაში და გაიგო გააჩნია თუ არა კურსს დასწრების წინაპირობა. </div>
+<div class="line"></div>
+
+    <h3 class="question" onclick="toggleAnswer('answer2')">შემიძლია თუ არა ერთზე მეტ კურსზე რეგისტრაცია? <i class="fa-solid fa-angle-down"></i></h3>
+    
+    <div class="answer" id="answer2">TBC X USAID ტექნოლოგიური განათლებისთვის პროგრამაში თითოეულ კანდიდატს აქვს მხოლოდ ერთი კურსის გავლის შესაძლებლობა. გარდა Information Security და Python კურსებისა, სადაც Basic დონის გავლის შემდეგ შესაძლებელია სწავლის გაგრძელება Advance დონეზე.</div>
+    <div class="line"></div>
+    
+    <h3 class="question" onclick="toggleAnswer('answer3')">რა ღირს სწავლა პროგრამის ფარგლებში? <i class="fa-solid fa-angle-down"></i></h3>
+    
+    <div class="answer" id="answer3">პროგრამის ფარგლებში კურსებზე სწავლა სრულიად დაფინანსებულია თიბისი ბანკისა და USAID-ის მიერ.</div>
+    <div class="line"></div>
+
+</div>
+
+      <footer>
+        <div class="leftDiv">
+            <div class="logo-container">
+                <img src="https://static.wixstatic.com/media/dd97f4_86c58c47370442a889e9a4e9db4eb00c~mv2.png/v1/crop/x_1,y_0,w_426,h_123/fill/w_133,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Asset%201%402x.png" alt="Logo">
+            </div>
+    
+            <div class="privacy-policy">
+                <span>© 2023 ყველა უფლება დაცულია</span>
+                <a href="#">წესები და პირობები</a>
+            </div>
+        </div>
+        
+    
+        <div class="rightDiv">
+            <div class="icon-group">
+                <div class="iconDiv">
+
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="iconDiv">
+
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <div class="contact-link">
+                <a href="#">მოგვწერეთ</a>
+            </div>
+        </div>
+    </footer>
+  <script src="main.js"></script>
+
+</body>
+</html>
